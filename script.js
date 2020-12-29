@@ -5,8 +5,8 @@ var rod2 = document.getElementById('rod2');
 
 const storeName = "PPName";
 const storeScore = "PPMaxScore";
-const rod1Name = "Rod 1";
-const rod2Name = "Rod 2";
+const rod1Name = "Player 1";
+const rod2Name = "Player 2";
 
 
 let score,
@@ -30,7 +30,7 @@ let windowWidth = window.innerWidth,
     if (rod === "null" || maxScore === "null") {
         alert("This is the first time you are playing this game. LET'S START");
         maxScore = 0;
-        rod = "Rod1"
+        rod = "Player1"
     } else {
         alert(rod + " has maximum score of " + maxScore * 100);
     }
